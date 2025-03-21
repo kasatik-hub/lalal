@@ -13,7 +13,7 @@ let score = 0;
 
 function loadTabs() {
     const tabsContainer = document.getElementById("tabs");
-    tabsContainer.innerHTML = Object.keys(topics).map(topic => 
+    tabsContainer.innerHTML = Object.keys(topics).map(topic =>
         `<div class='tab' onclick='selectTopic("${topic}")'>${topic}</div>`
     ).join("");
 }

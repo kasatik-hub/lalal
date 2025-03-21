@@ -1,9 +1,22 @@
-<h1>Тренировка экзамена</h1>
-<div class="tabs" id="tabs"></div>
-<div class="question-container">
-    <div class="question" id="question">Выберите раздел</div>
-    <input type="text" id="answer" class="answer-input" placeholder="Введите ответ" style="display:none;">
-    <button class="submit-button" onclick="checkAnswer()" style="display:none;">Ответить</button>
-    <div class="feedback" id="feedback"></div>
-</div>
-<div class="score">Очки: <span id="score">0</span> | Верных ответов: <span id="percent">0%</span></div>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тренировка экзамена</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Тренировка экзамена</h1>
+    <div class="tabs" id="tabs"></div>
+    <div class="question-container">
+        <div class="question" id="question">Выберите раздел</div>
+        <input type="text" id="answer" class="answer-input" placeholder="Введите ответ" style="display:none;">
+        <button class="submit-button" onclick="checkAnswer()" style="display:none;">Ответить</button>
+        <div class="feedback" id="feedback"></div>
+    </div>
+    <div class="score">Очки: <span id="score">0</span> | Верных ответов: <span id="percent">0%</span></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
